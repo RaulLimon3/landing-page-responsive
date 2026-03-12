@@ -13,5 +13,6 @@
 @import url('./layout/footer.css');
 
 /* Components */
+@import url('./components/logo.css');
 
 /* Section */
