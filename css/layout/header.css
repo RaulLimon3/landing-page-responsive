@@ -1,0 +1,18 @@
+.header {
+    background: inherit;
+    padding: var(--spacing-sm) 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.navbar, .btn-contact {
+    display: none;
+}
