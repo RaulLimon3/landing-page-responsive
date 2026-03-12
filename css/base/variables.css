@@ -1,0 +1,95 @@
+:root {
+    /* Colors */
+    --clr-primary: #0077B6;
+    --clr-primary-dark: #03045E;
+    --clr-accent: #00B4D8;
+
+    /* background */
+    --clr-bg-main: #FFF;
+    --clr-bg-soft: #CAF0F8;
+    --clr-bg-light: #90E0EF;
+
+    /* Text */
+    --clr-txt-main: #333;
+    --clr-txt-light: #f2f2f2;
+    --clr-txt-muted: #737373;
+
+    /* Buttons */
+    --btn-primary: #0077B6;
+    --btn-accent: #073038;
+    --btn-hover: #03045E;
+
+    /* Borders */
+    --clr-border: #e5e7eb;
+
+    /* Fonts */
+    --ff-base: "Roboto", sans-serif;
+
+    /* Font size */
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-base: 1rem;
+    --fs-lg: 1.25rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 3rem;
+    --fs-4xl: 4rem;
+    --fs-hero: 3.5rem;
+
+    /* Font weight */
+    --fw-thin: 100;
+    --fw-extra-light: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+    --fw-extre-bold: 800;
+    --fw-black: 900;
+
+    /* Line height */
+    --lh-base: 1.6;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    --spacing-3xl: 4rem;
+
+
+    /* Cotainer */
+    --container-width: 100%;
+    --container-max-width: 1200px;
+    --container-padding: 1rem;
+
+    /* Layout */
+    --header-height: 80px;
+    --section-padding: 4rem;
+
+    /* Viewport */
+    --section-min-height: 100vh;
+
+    /* Borders and shadows */
+
+    /* Border radius */
+    --radius-xs: 0.25rem;
+    --radius-sm: 0.5rem;
+    --radius-md: 1rem;
+    --radius-lg: 1.5rem;
+    --radius-full: 50%;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 5px 15px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+    /* Transitions and animation */
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+    --hover-transform: translateY(-3px);
+}

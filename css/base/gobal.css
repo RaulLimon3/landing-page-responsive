@@ -1,0 +1,40 @@
+body {
+    font-family: var(--ff-base),'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: var(--lh-base);
+    background: var(--clr-bg-main);
+    color: var(--clr-txt-main);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: var(--fw-bold);
+    margin-bottom: var(--spacing-md);
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+    padding-inline: var(--container-padding);
+    margin-inline: auto;
+}
