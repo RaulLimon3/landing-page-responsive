@@ -1,5 +1,15 @@
-@import url('./base/normalize.css');
-@import url('./base/reset.css');
+/* Settings */
+@import url('./settings/variables.css');
+
+/* Base */
 @import url('./base/fonts.css');
-@import url('./base/variables.css');
+@import url('./base/reset.css');
+@import url('./base/normalize.css');
 @import url('./base/gobal.css');
+
+/* Layout */
+@import url('./layout/container.css');
+
+/* Components */
+
+/* Section */
