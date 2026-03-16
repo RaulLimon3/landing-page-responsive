@@ -1,0 +1,25 @@
+.btn {
+    background: var(--btn-primary);
+    color: var(--clr-txt-light);
+    font-weight: var(--fw-semi-bold);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-sm);
+}
+
+.btn--secundary {
+    background: var(--btn-accent);
+}
+
+.btn--secundary:hover {
+    background: var(--btn-hover);
+}
+
+.btn--transparent {
+    display: flex;
+    align-items: center;
+}
+
+.btn--transparent .icon {
+    width: 24px;
+    height: 24px;
+}

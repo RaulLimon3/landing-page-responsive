@@ -1,0 +1,13 @@
+.input {
+    width: 100%;
+    padding: var(--spacing-sm);
+    font-family: inherit;
+    font-size: var(--fs-base);
+    border: 1px solid var(--clr-border);
+    border-radius: var(--radius-sm);
+    outline: none;
+}
+
+.input:focus {
+    border-color: var(--clr-primary);
+}
