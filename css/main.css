@@ -21,3 +21,8 @@
 @import url('./components/input.css');
 
 /* Section */
+@import url('./sections/hero.css');
+@import url('./sections/hero-info.css');
+
+/* Utilities */
+@import url( './utilities/helpers.css');
