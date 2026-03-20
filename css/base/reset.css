@@ -11,4 +11,5 @@
 html {
     font-size: var(--fz-base);
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }

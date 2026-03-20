@@ -23,6 +23,11 @@
 /* Section */
 @import url('./sections/hero.css');
 @import url('./sections/hero-info.css');
+@import url('./sections/service.css');
+@import url('./sections/about.css');
+@import url('./sections/testimonial.css');
+@import url('./sections/help.css');
+@import url('./sections/faq.css');
 
 /* Utilities */
 @import url( './utilities/helpers.css');

@@ -1,0 +1,20 @@
+.about {
+    background: var(--clr-primary-dark);
+    color: var(--clr-txt-light);
+    padding: var(--spacing-lg) 0;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.about-btn {
+    color: #ffc380;
+}
+
+.about-btn a img {
+    background: var(--clr-txt-light);
+    border-radius: var(--radius-semi-full);
+}

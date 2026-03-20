@@ -1,0 +1,54 @@
+.help {
+    background-image: url('/assets/img/scott-graham-5fNmWej4tAA-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(3, 4, 94, 0.7);
+}
+
+.help-container {
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.help-content {
+    background: var(--clr-bg-main);
+    padding: var(--spacing-md);
+}
+
+.help-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.contact {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+}
+
+.contact-icon {
+    min-width: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.help-form {
+    background: var(--clr-bg-dark);
+    padding: var(--spacing-md);
+    color: var(--clr-txt-light);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.inputs textarea {
+    resize: none;
+}
+
+.cta .btn {
+    width: 100%;
+}
