@@ -11,6 +11,7 @@
     gap: var(--spacing-sm);
     padding: var(--spacing-sm) var(--spacing-md);
     text-align: left;
+    border-radius: var(--radius-sm);
 }
 
 .faq-item--active, .faq-item--active span{
@@ -22,7 +23,7 @@
     font-weight: var(--fw-bold);
     font-size: var(--fs-sm);
     display: flex;
-    gap: var(--spacing-sm);
+    justify-content: space-between;
 }
 
 .faq-question .icon {
