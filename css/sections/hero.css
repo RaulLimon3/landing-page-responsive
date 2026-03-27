@@ -4,11 +4,21 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 1000px rgba(3, 4, 94, 0.7);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(3, 4, 94, 0.7);
 }
 
 .hero-container {
-    min-height: 60vh;
+    position: relative;
+    z-index: 1;
     color: var(--clr-txt-light);
     gap: var(--spacing-md);
 }
@@ -32,4 +42,11 @@
     flex-direction: column;
     gap: var(--spacing-sm);
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-container .hero-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
