@@ -4,6 +4,7 @@
     font-weight: var(--fw-semi-bold);
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--radius-sm);
+    display: inline-block;
 }
 
 .btn--secundary {
