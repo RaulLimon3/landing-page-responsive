@@ -40,35 +40,7 @@
     color: var(--clr-txt-light);
 }
 
-.nav-link {
-    display: block;
-}
-
 .menu-toggle:checked~.navbar-container {
-    max-height: 100vh;
+    max-height: 600px;
     padding: var(--spacing-lg) 0;
-}
-
-@media screen and (min-width: 768px) {
-    .hamburger {
-        display: none;
-    }
-
-    .navbar-container {
-        position: static;
-        max-height: none;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        background: transparent;
-        width: auto;
-    }
-
-    .nav-list {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        font-size: var(--fs-base);
-        gap: var(--spacing-xs);
-    }
 }

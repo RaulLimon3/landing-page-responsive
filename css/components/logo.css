@@ -1,36 +1,44 @@
 .logo {
+    font-size: var(--fs-lg);
+    text-align: left;
+    line-height: 1;
     display: flex;
     align-items: center;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-md);
 }
 
-.logo .icon {
+.logo img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
     border-radius: var(--radius-full);
     padding: var(--spacing-xs);
-    object-fit: cover;
 }
 
-.logo-text {
-    line-height: 1.1;
+.logo p {
     font-weight: var(--fw-bold);
     display: flex;
     flex-direction: column;
+}
+
+.logo p span {
+    font-size: var(--fs-base);
+    color: var(--clr-txt-muted);
+}
+
+.logo-light img {
+    background: inherit;
+
 }
 
 .footer .logo {
     justify-content: center;
 }
 
-.logo-dark .icon {
+.logo-dark img {
     background: var(--clr-bg-main);
 }
 
-@media screen and (min-width: 768px) {
-    .logo {
-        gap: var(--spacing-xs);
-    }
-
-    .logo-text {
-        font-size: var(--fs-sm);
-    }
+.logo-dark p span {
+    color: var(--clr-txt-light);
 }
