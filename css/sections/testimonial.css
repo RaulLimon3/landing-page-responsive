@@ -1,5 +1,6 @@
 .testimonial {
     padding: var(--spacing-lg) 0;
+    margin: var(--spacing-2xl) 0;
 }
 .testimonial-cards {
     display: grid;
