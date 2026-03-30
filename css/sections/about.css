@@ -10,11 +10,45 @@
     gap: var(--spacing-md);
 }
 
+.about-content,
+.about-media {
+    width: 100%;
+}
+
 .about-btn {
     color: #ffc380;
 }
 
-.about-btn a img {
+.about-btn img {
     background: var(--clr-txt-light);
     border-radius: var(--radius-semi-full);
+}
+
+.about-media img {
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+    .about-container {
+        flex-direction: row;
+        align-items: center;
+        gap: var(--spacing-lg);
+    }
+
+    .about-content,
+    .about-media {
+        flex: 1;
+    }
+
+    .about-content {
+        padding: var(--spacing-md);
+    }
+
+    .about-media {
+        width: 100%;
+    }
+
+    .about-content .subtitle {
+        text-align: start;
+    }
 }
