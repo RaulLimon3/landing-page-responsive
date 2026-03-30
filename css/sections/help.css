@@ -13,6 +13,7 @@
 .help-content {
     background: var(--clr-bg-main);
     padding: var(--spacing-md);
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
 }
 
 .help-info {
@@ -45,10 +46,48 @@
     gap: var(--spacing-md);
 }
 
+.inputs input,
+.inputs textarea {
+    width: 100%;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    border: none;
+    outline: none;
+}
+
 .inputs textarea {
     resize: none;
 }
 
 .cta .btn {
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .help-container {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .help-content,
+    .help-form {
+        flex: 1;
+    }
+
+    .help-content {
+        border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+    }
+
+    .help-content .subtitle {
+        font-size: var(--fs-2xl);
+        text-align: left;
+    }
+
+    .form-title {
+        font-size: var(--fs-xl);
+    }
+
+    .cta .btn {
+        width: auto;
+    }
 }
